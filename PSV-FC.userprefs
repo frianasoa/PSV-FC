@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PSV-FC\AppMain.cs">
+    <Files>
+      <File FileName="PSV-FC\AppMain.cs" Line="3" Column="22" />
+      <File FileName="c:\Users\newcreat\Documents\PSV-FC\PSV-FC\NES\Mapper.cs" Line="309" Column="1" />
+      <File FileName="PSV-FC\NES\NesEngine.cs" Line="60" Column="64" />
+      <File FileName="PSV-FC\NES\PPU.cs" Line="28" Column="19" />
+      <File FileName="PSV-FC\NES\Processors\Nes6502.cs" Line="4" Column="37" />
+      <File FileName="PSV-FC\NES\Cartridge.cs" Line="1" Column="1" />
+      <File FileName="PSV-FC\NES\Joypad.cs" Line="59" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

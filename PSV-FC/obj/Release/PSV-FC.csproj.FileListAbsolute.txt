@@ -1,0 +1,2 @@
+C:\Users\newcreat\Documents\PSV-FC\PSV-FC\bin\Release\PSV-FC-unsigned\Application\Rom\Rush%27nAttack.nes
+C:\Users\newcreat\Documents\PSV-FC\PSV-FC\bin\Release\PSV-FC-signed\Application\Rom\Rush%27nAttack.nes

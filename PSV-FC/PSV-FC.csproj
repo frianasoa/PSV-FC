@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{929FECFD-627E-4883-ADC2-3BF0F5A010FB}</ProjectGuid>
+    <ProjectTypeGuids>{69878862-DA7D-4DC6-B0A1-50D8FAB4242F};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>PSVFC</RootNamespace>
+    <AssemblyName>PSV-FC</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Sce.Pss.Core" />
+    <Reference Include="SampleLib">
+      <HintPath>SampleLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppMain.cs" />
+    <Compile Include="NES\Cartridge.cs" />
+    <Compile Include="NES\Joypad.cs" />
+    <Compile Include="NES\Mapper.cs" />
+    <Compile Include="NES\NesEngine.cs" />
+    <Compile Include="NES\PPU.cs" />
+    <Compile Include="NES\Video.cs" />
+    <Compile Include="NES\Processors\Nes6502.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sce\Sce.Pss.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="shaders\" />
+    <Folder Include="NES\" />
+    <Folder Include="Rom\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ShaderProgram Include="shaders\Texture.fcg" />
+    <ShaderProgram Include="shaders\Texture.vcg" />
+    <ShaderProgram Include="shaders\Texture_sim.fcg" />
+    <ShaderProgram Include="shaders\Texture_sim.vcg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Rom\Contra.nes" />
+    <Content Include="Rom\Contra2.nes" />
+    <Content Include="Rom\DoubleDragon.nes" />
+    <Content Include="Rom\Jackal.nes" />
+    <Content Include="Rom\Mario.nes" />
+    <Content Include="Rom\Rush%27nAttack.nes" />
+  </ItemGroup>
+</Project>
