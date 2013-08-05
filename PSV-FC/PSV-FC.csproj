@@ -48,7 +48,7 @@
     <Compile Include="NES\Video.cs" />
     <Compile Include="NES\Processors\Nes6502.cs" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Sce\Sce.Pss.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Sce\Sce.Psm.CSharp.targets" />
   <ItemGroup>
     <Folder Include="shaders\" />
     <Folder Include="NES\" />
