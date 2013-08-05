@@ -1,0 +1,5 @@
+C:\Users\newcreat\Documents\PSV-FC\PSV-FC\bin\Release\PSV-FC-unsigned\Application\Rom\Rush%27nAttack.nes
+C:\Users\newcreat\Documents\PSV-FC\PSV-FC\bin\Release\PSV-FC-signed\Application\Rom\Rush%27nAttack.nes
+C:\Users\James\Desktop\Git\PSV-FC-master\PSV-FC\obj\Release\PSV-FC.csprojResolveAssemblyReference.cache
+C:\Users\James\Desktop\Git\PSV-FC-master\PSV-FC\obj\Release\shaders\shaders\Texture.cgx
+C:\Users\James\Desktop\Git\PSV-FC-master\PSV-FC\obj\Release\shaders\shaders\Texture_sim.cgx

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSV-FC", "PSV-FC\PSV-FC.csproj", "{929FECFD-627E-4883-ADC2-3BF0F5A010FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{929FECFD-627E-4883-ADC2-3BF0F5A010FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929FECFD-627E-4883-ADC2-3BF0F5A010FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929FECFD-627E-4883-ADC2-3BF0F5A010FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929FECFD-627E-4883-ADC2-3BF0F5A010FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = PSV-FC\PSV-FC.csproj
+	EndGlobalSection
+EndGlobal
